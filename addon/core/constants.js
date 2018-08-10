@@ -9,6 +9,11 @@ const LINK_TYPE = 'LINK_TYPE'
 
 const ENGINE_LIST = [
   {
+    label: 'StartPage',
+    value: 'StartPage',
+    url: 'https://www.startpage.com/do/dsearch?query=@@'
+  },
+  {
     label: 'Google',
     value: 'Google',
     url: 'https://www.google.com/search?q=@@'
